@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
    
@@ -36,7 +37,7 @@
     </header>
 <!----------------------HOME PAGE-------------------------->
 
-<home-page>
+<home-page data-aos="zoom-in">
 
     <div class="home-page-left">
         <div class="home-page-text">
@@ -61,7 +62,7 @@
 <!--------------------FEATURE PAGE----------------------->
 
 
-<div class="feature-page">
+<div class="feature-page" data-aos="zoom-in-down">
 
 
     <div class="title">
@@ -96,7 +97,7 @@
 
 <!--------------------PROPERTY PAGE----------------------->
 
-<section class="property-page">
+<section class="property-page" data-aos="zoom-in-down">
 
 <div class="property-title">
     <h2>Popular Picks</h2>
@@ -149,7 +150,7 @@
 
 </div>
 
-<div class="property-button">
+<div class="property-button" data-aos="zoom-in-down">
     <button type="button">View all properties</button>
 </div>
 
@@ -163,7 +164,7 @@
 
 <!--------------------ABOUT PAGE----------------------->
 
-<section>
+<section data-aos="zoom-in-down">
 
     <div class="about-page">
         <div class="about-page-img">
@@ -185,7 +186,7 @@
 
 <!--------------------CALL TO ACTION PAGE----------------------->
 
-<section class="call-to-action-page">
+<section class="call-to-action-page" data-aos="zoom-in-down">
 
 
 <div class="container">
@@ -200,10 +201,10 @@
 </section>
 
 
-<div class="footer-divider"></div>
+<div class="footer-divider" data-aos="zoom-in-down"></div>
 <!--------------------footer PAGE----------------------->
 
-<section>
+<section data-aos="zoom-in-down">
 
 <div class="footer">
     <div class="footer-left">
@@ -265,8 +266,15 @@
 
 
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 700
+  });
+</script>
 
-
-    <script src="script.js"></script>
+    <script src="script.js">
+        
+    </script>
 </body>
 </html>
