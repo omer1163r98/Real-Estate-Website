@@ -1,0 +1,372 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(to top, rgb(161, 185, 186), rgb(255, 255, 255));
+    color:rgb(35, 46, 55);
+    font-family:sans-serif;
+    
+
+}
+
+
+/*---------------------Header--------------------*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-top:23px;
+    width: 80%;
+    height: 10vh;
+    justify-content: space-around;
+    position: relative;
+    margin: auto;
+    position: static;
+}
+
+.left-header{
+    width: 120px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .6rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-header img{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    align-items: center;
+    
+}
+
+.right-header{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.signup{
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(184, 200, 214) ;
+    color: rgb(37, 37, 37);
+    
+}
+
+
+/*---------------------Home Page--------------------*/
+
+
+home-page{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.home-page-left{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.home-page-left h1{
+    font-size: 70px;
+    padding:10px 0;
+
+}
+
+.home-page-left p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.search{
+    padding: 10px 0;
+    display: flex;
+}
+
+.search input{
+    width:300px;
+    height: 30px;
+    border: 2px solid rgb(111, 106, 106);
+    border-radius: 20px;
+    padding: 3px 7px;
+    display: inline;
+    position: relative;
+    
+}
+
+.search-button{
+    margin: 0 5px;
+    padding: 10px;
+    border: 2px solid rgb(111, 106, 106);
+    border-radius: 20px;
+    
+    
+    
+}
+.home-page-right img{
+    width: 500px;
+    border-radius: 25px;
+}
+
+/*---------------------Feature Page--------------------*/
+
+
+.feature-page {
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:50vh;
+    
+   
+}
+.title{
+    font-size: 20px;
+    display: block;
+    align-self: flex-start;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    
+}
+
+
+.features{
+    display: flex;
+}
+
+
+.features-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+    
+}
+
+.f-img{
+    
+   
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+/*---------------------property Page--------------------*/
+
+.properties{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.property-title{
+    margin:40px 20px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.property-card{
+    width:350px;
+    height: auto;
+    padding:10px;
+}
+
+.property-img img{
+    width: 350px;
+    height: auto;
+}
+
+.property-text{
+    padding: 15px 0;
+
+}
+.property-text p{
+    opacity: 70%;
+    padding: 10px 0;
+}
+
+.property-details{
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    
+}
+
+.property-details p{
+    opacity: 100%;
+}
+
+.property-button{
+    display: flex;
+    justify-content: center;
+    padding:30px 0;
+
+}
+.property-button button{
+    width:150px;
+    height: 40px;
+    margin-bottom: 100px;
+    
+
+}
+
+
+/*---------------------about Page--------------------*/
+
+.about-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.about-page-img img{
+    width:600px;
+    height: auto;
+}
+
+.about-page-text{
+    width: 500px;
+}
+
+.about-page-text h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.about-page-text p{
+    opacity: 70%;
+    padding: 10px 0;
+}
+
+.about-page-text button{
+    width:100px;
+    padding: 15px 0px ;
+    margin:10px 0;
+}
+
+/*---------------------Call to action Page--------------------*/
+
+
+.container{
+    width:80%;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom:100px;
+    padding:100px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left , rgb(124, 216, 219), rgb(255, 227, 227));
+    background-position: 0px -1400px;
+
+}
+
+.container div{
+    width:600px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.container div h1{
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+.container div p{
+    padding: 5px 0;
+}
+
+.container div button{
+    width: 100px;
+    height: 40px;
+    margin-top:20px ;
+}
+
+.footer-divider{
+    width: 100%;
+    margin: auto;
+    height: 2px;
+    margin: 20px 0;
+    background-color: aliceblue;
+    opacity: 70%;
+}
+/*---------------------footer Page--------------------*/
+
+.footer{
+    display: flex;
+    width:90%;
+    margin: auto;
+    height: auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.footer-left{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.footer-left img{
+    padding: 7px 0;
+    width:100px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.footer-right h2{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.footer-right ul{
+    list-style: none;
+}
+
+.footer-right ul li{
+    padding: 10px 0;
+    font-size: 12px;
+    opacity: 70%;
+}
